@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/UFSM.unity
+- path: Assets/Scenes/Arco.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
