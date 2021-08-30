@@ -36,10 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\MoveTargetBlock.cs" />
-     <Compile Include="Assets\Pathfinding.cs" />
      <Compile Include="Assets\Node.cs" />
      <Compile Include="Assets\Grid.cs" />
+     <Compile Include="Assets\CreateAgents.cs" />
+     <Compile Include="Assets\MoveTargetBlock.cs" />
+     <Compile Include="Assets\Pathfinding.cs" />
+     <Compile Include="Assets\CameraController.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/2020.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -263,7 +265,7 @@
         <HintPath>C:/Program Files/Unity/2020.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>C:/Users/augus/MAPF - IA/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+        <HintPath>C:/Users/augus/Desktop/MAPF/MAPF - IA/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity/2020.3.16f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -611,34 +613,34 @@
         <HintPath>C:/Program Files/Unity/2020.3.16f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:/Users/augus/MAPF - IA/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:/Users/augus/Desktop/MAPF/MAPF - IA/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:/Users/augus/MAPF - IA/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:/Users/augus/Desktop/MAPF/MAPF - IA/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:/Users/augus/MAPF - IA/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:/Users/augus/Desktop/MAPF/MAPF - IA/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:/Users/augus/MAPF - IA/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:/Users/augus/Desktop/MAPF/MAPF - IA/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:/Users/augus/MAPF - IA/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>C:/Users/augus/Desktop/MAPF/MAPF - IA/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:/Users/augus/MAPF - IA/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:/Users/augus/Desktop/MAPF/MAPF - IA/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:/Users/augus/MAPF - IA/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>C:/Users/augus/Desktop/MAPF/MAPF - IA/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:/Users/augus/MAPF - IA/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>C:/Users/augus/Desktop/MAPF/MAPF - IA/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:/Users/augus/MAPF - IA/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:/Users/augus/Desktop/MAPF/MAPF - IA/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:/Users/augus/MAPF - IA/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>C:/Users/augus/Desktop/MAPF/MAPF - IA/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
